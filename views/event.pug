@@ -1,0 +1,94 @@
+extends base
+
+block content
+  main#main-event
+    .event-img
+      img(src=`/img/${event.imageCover}`, width="1000px", height="500px")
+      .float
+        div
+          h1=event.name
+    .about-event
+      .about
+        div
+          h1 Tickets starting at
+          h2= `$${event.price}`
+        div
+          button.buy BUY TICKETS
+  .full-stats
+    .About-show
+      .theme
+        h1 About the show
+      .stats
+        .svg
+          svg
+            use(xlink:href="/img/icons.svg#icon-calendar")
+          svg(class="heading-box__icon")
+            use(xlink:href="/img/icons.svg#icon-clock")
+          svg(class="overview-box__icon")
+            use(xlink:href="/img/icons.svg#icon-trending-up")
+          svg(class="overview-box__icon")
+            use(xlink:href="/img/icons.svg#icon-user")
+          svg(class="heading-box__icon")
+            use(xlink:href="/img/icons.svg#icon-map-pin")
+          svg(class="overview-box__icon")
+            use(xlink:href="/img/icons.svg#icon-star")
+        .svg-text
+          div
+            p=event.date
+          div
+            p=event.duration
+          div
+            p=event.genre
+          div
+            p=event.maxGroupSize
+          div
+            p=event.startLocation.description
+          div
+            p=event.ratingsAverage
+    .media
+      .theme
+        h1 Media
+      div
+        each img in event.images
+          img(src=`/img/${img}`, width="400px", height="287px")
+       
+    hr
+    .story
+      .theme
+        h1 Story
+      div
+        p=event.description 
+    hr
+    .actors
+      .theme
+        h1 Main actors
+      .actors-image-show
+       each actor in event.actors
+        div
+          img(src=`/img/users/${actor.photo}`, width="120px")
+          p=actor.name
+       
+    hr
+  .reviews
+    .horizontal
+      .scroll
+       each review in event.reviews  
+        .review-cards
+          .review-header
+            img(src=`/img/users/${review.user.photo}`)
+            h1=review.user.name
+          .paragraf
+            p(class="description__text")=review.review
+          
+          .stars
+           each i in [1,2,3,4,5]
+            if i<=review.rating
+             svg(class=`reviews__star reviews__star--active`)
+              use(xlink:href="/img/icons.svg#icon-star")
+            else 
+              svg(class=`reviews__star reviews__star--inactive`)
+                use(xlink:href="/img/icons.svg#icon-star")
+            
+        
+  //- #map.map
+    //- iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9206289035437!2d-73.97428089374935!3d40.763770414470464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f080227c09%3A0x2c83d23418905883!2sThe%20Paris%20Theater!5e0!3m2!1sen!2smk!4v1694372977878!5m2!1sen!2smk", width="800", height="450", style="border:0;", allowfullscreen=, loading="lazy", referrerpolicy="no-referrer-when-downgrade")

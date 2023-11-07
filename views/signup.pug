@@ -1,0 +1,16 @@
+extends base
+
+block content
+    main.login
+      .main-inside2
+        form.main-block2
+          h1 CREATE YOUR ACCOUNT
+          label(for="name2") Your name
+          input#name2(type="text", required)
+          label(for="email2") Email adress
+          input#email2(type="email", placeholder="you@example.com", required)
+          label(for="password2") Password
+          input#password2(class="form__input", type="password", placeholder="••••••••", required, minlength="8")
+          label(for="confirmpassword2") Confirm Password
+          input#confirmpassword2(class="form__input", type="password", placeholder="••••••••", required, minlength="8")
+          button SIGNUP

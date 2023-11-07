@@ -1,0 +1,27 @@
+extends base
+
+block content
+    main#main
+        #container
+          each event,i in events
+            .cards(data-card-id=`${i+1}`)
+                a(href=`/event/${event.slug}`)
+                    h1=event.name
+                div(id=`img${i+1}`)
+                    img(src=`/img/${event.imageCover}`, width="380px", height="250px")
+                div(id=`info${i+1}` class='info')
+                    div(class="info_inside")
+                        div
+                            p=`📍${event.startLocation.description}`
+                        div
+                            p=`📅${event.date}`
+                    div(class="info_inside")
+                        div
+                            p=`🎭${event.genre}`
+                        div
+                            p=`${event.maxGroupSize} 👨‍👨‍👧‍👧`
+                    div(class="info_inside")
+                        div
+                            p=`💲 ${event.price} per person`
+                        div
+                            p=`⭐${event.ratingsAverage} rating`

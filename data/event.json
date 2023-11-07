@@ -1,0 +1,248 @@
+[
+    {
+      "startLocation": {
+        "description": "Paris, France",
+        "type": "Point",
+       "address": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9206289035437!2d-73.97428089374935!3d40.763770414470464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f080227c09%3A0x2c83d23418905883!2sThe%20Paris%20Theater!5e0!3m2!1sen!2smk!4v1694372977878!5m2!1sen!2smk"
+      },
+      "ratingsAverage": 4.8,
+      "ratingsQuantity": 6,
+      "date":"21 June 2023",
+      "images": ["event1_1.jpg", "event1_2.jpg", "event1_3.jpg"],
+      "_id": "5c88fa8cf4afda39709c2955",
+      "name": "Woman in Traffic",
+      "duration": "20:00-22:00",
+      "maxGroupSize": 178,
+      "genre": "Comedy",
+      "price": 20,
+      "actors":[
+        "650ae058db08b035e02dc61a",
+        "650ae066db08b035e02dc61c",
+        "650ae07bdb08b035e02dc61e"
+      ],
+     
+      "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imageCover": "event1.jpg"
+     
+      
+    },
+    {
+        "startLocation": {
+          "description": "Madrid, Spain",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.3471576962784!2d23.344789176126746!3d42.69636947116359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85835ce664f1%3A0x2f24bb2288d32a2f!2sZad%20kanala%20malak%20gradski%20Theatre!5e0!3m2!1sen!2smk!4v1694522921574!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 5,
+        "ratingsQuantity": 9,
+        "date":"23 June 2023",
+        "images": ["event2_1.jpg", "event2_2.jpg", "event2_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c2951",
+        "name": "Mad House",
+        "duration": "20:00-22:00",
+        "maxGroupSize": 200,
+        "genre": "Comedy",
+        "price": 30,
+        "actors":[
+          "650ae058db08b035e02dc61a",
+          "650ae066db08b035e02dc61c",
+          "650ae0bedb08b035e02dc626"
+        ],
+      
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+       "imageCover": "event2.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Lisabon, Portugal",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d99620.61799846053!2d-9.14173003652344!3d38.714495600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd193387484dd455%3A0xf4376138a1d71cf4!2sTeatro%20Nacional%20Dona%20Maria%20II%2C%20Pra%C3%A7a%20Dom%20Pedro%20IV%2C%201100-201%20Lisboa%2C%20Portugal!3m2!1d38.7146763!2d-9.1397324!5e0!3m2!1sen!2smk!4v1694523271989!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.5,
+        "ratingsQuantity": 6,
+        "date":"10 August 2023",
+        "images": ["event3_1.jpg", "event3_2.jpg", "event3_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c295a",
+        "name": "Jovanche i Marika",
+        "duration": "18:00-20:00",
+        "maxGroupSize": 150,
+        "genre": "Puppet show",
+        "price": 10,
+        "actors":[
+          "650ae0cbdb08b035e02dc628",
+          "650ae066db08b035e02dc61c",
+          "650ae0bedb08b035e02dc626"
+        ],
+      
+        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+       "imageCover": "event3.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Lisabon, Portugal",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d99620.61799846053!2d-9.14173003652344!3d38.714495600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd193387484dd455%3A0xf4376138a1d71cf4!2sTeatro%20Nacional%20Dona%20Maria%20II%2C%20Pra%C3%A7a%20Dom%20Pedro%20IV%2C%201100-201%20Lisboa%2C%20Portugal!3m2!1d38.7146763!2d-9.1397324!5e0!3m2!1sen!2smk!4v1694523271989!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 7,
+        "date":"10 August 2023",
+        "images": ["event4_1.jpg", "event4_2.jpg", "event4_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c2961",
+        "name": "Scotje's Curse",
+        "duration": "21:00-23:00",
+        "maxGroupSize": 150,
+        "genre": "Tragedy",
+        "price": 30,
+        "actors":[
+          "650ae0cbdb08b035e02dc628",
+          "650ae0dddb08b035e02dc62a",
+          "650ae0bedb08b035e02dc626"
+        ],
+      
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+       "imageCover": "event4.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Barcelona, Spain",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d95763.90549199692!2d2.012685643359378!3d41.40401369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12a4a2bdd9a82713%3A0xd25f880b89de1079!2sVerdi%20Barcelona%2C%20C%2F%20de%20Verdi%2C%2032%2C%2008012%20Barcelona%2C%20Spain!3m2!1d41.4040137!2d2.1568812!5e0!3m2!1sen!2smk!4v1694523729821!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 5,
+        "date":"5 June 2023",
+        "images": ["event5_1.jpg", "event5_2.jpg", "event5_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c295d",
+        "name": "The ugly one",
+        "duration": "21:00-23:00",
+        "maxGroupSize": 250,
+        "genre": "Comedy",
+        "price": 30,
+        "actors":[
+          "650ae0cbdb08b035e02dc628",
+          "650ae0ebdb08b035e02dc62c",
+          "650ae0dddb08b035e02dc62a"
+        ],
+      
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+       "imageCover": "event5.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Nice, France",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d46152.691638361364!2d7.20589622167969!3d43.69925870000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12cddaa809f3c0e9%3A0x9e829962e1b0e3f6!2sTh%C3%A9%C3%A2tre%20National%20de%20Nice%2C%204-6%20Pl.%20Saint-Fran%C3%A7ois%2C%2006300%20Nice%2C%20France!3m2!1d43.699216799999995!2d7.2779861!5e0!3m2!1sen!2smk!4v1694523930844!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 3.9,
+        "ratingsQuantity": 7,
+        "date":"5 June 2023",
+        "images": ["event6_1.jpg", "event6_2.jpg", "event6_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c2966",
+        "name": "Auditor",
+        "duration": "21:00-23:00",
+        "maxGroupSize": 150,
+        "genre": "Drama",
+        "price": 30,
+        "actors":[
+          "650ae0bedb08b035e02dc626",
+          "650ae0dddb08b035e02dc62a",
+          "650ae0ebdb08b035e02dc62c"
+        ],
+      
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+       "imageCover": "event6.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Madrid, Spain",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.3471576962784!2d23.344789176126746!3d42.69636947116359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85835ce664f1%3A0x2f24bb2288d32a2f!2sZad%20kanala%20malak%20gradski%20Theatre!5e0!3m2!1sen!2smk!4v1694522921574!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.8,
+        "ratingsQuantity": 6,
+        "date":"29 June 2023",
+        "images": ["event7_1.jpg", "event7_2.jpg", "event7_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c2970",
+        "name": "Ace of ten",
+        "duration": "20:00-23:00",
+        "maxGroupSize": 300,
+        "genre": "Drama",
+        "price": 30,
+        "actors":[
+          "650ae066db08b035e02dc61c",
+          "650ae0dddb08b035e02dc62a",
+          "650ae07bdb08b035e02dc61e"
+        ],
+      
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+       "imageCover": "event7.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Paris, France",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9206289035437!2d-73.97428089374935!3d40.763770414470464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f080227c09%3A0x2c83d23418905883!2sThe%20Paris%20Theater!5e0!3m2!1sen!2smk!4v1694372977878!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 7,
+        "date":"05 August 2023",
+        "images": ["event8_1.jpg", "event8_2.jpg", "event8_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c2974",
+        "name": "Love and Punishment",
+        "duration": "20:00-22:00",
+        "maxGroupSize": 178,
+        "genre": "Drama",
+        "price": 25,
+        "actors":[
+          "650ae066db08b035e02dc61c",
+          "650ae0dddb08b035e02dc62a",
+          "650ae058db08b035e02dc61a"
+        ],
+       
+        "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageCover": "event8.jpg"
+       
+        
+      },
+      {
+        "startLocation": {
+          "description": "Lisabon, Portugal",
+          "type": "Point",
+         "address": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d99620.61799846053!2d-9.14173003652344!3d38.714495600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd193387484dd455%3A0xf4376138a1d71cf4!2sTeatro%20Nacional%20Dona%20Maria%20II%2C%20Pra%C3%A7a%20Dom%20Pedro%20IV%2C%201100-201%20Lisboa%2C%20Portugal!3m2!1d38.7146763!2d-9.1397324!5e0!3m2!1sen!2smk!4v1694523271989!5m2!1sen!2smk"
+        },
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 7,
+        "date":"19 August 2023",
+        "images": ["event9_1.jpg", "event9_2.jpg", "event9_3.jpg"],
+        "_id": "5c88fa8cf4afda39709c296c",
+        "name": "The Fallen Kingdom",
+        "duration": "21:00-23:00",
+        "maxGroupSize": 150,
+        "genre": "Comedy",
+        "price": 30,
+        "actors":[
+          "650ae066db08b035e02dc61c",
+          "650ae0cbdb08b035e02dc628",
+          "650ae07bdb08b035e02dc61e"
+        ],
+      
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+       "imageCover": "event9.jpg"
+       
+        
+      }
+
+
+
+]

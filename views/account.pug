@@ -1,0 +1,75 @@
+extends base
+
+block content
+    main#my-account
+      #account
+        #options-account
+          ul#opt
+            li
+              svg(class="card__account")
+                use(xlink:href="/img/icons.svg#icon-settings")
+              a(href="#")
+                h1 Settings
+            li
+              svg(class="card__account")
+                use(xlink:href="/img/icons.svg#icon-briefcase")
+              a(href="#")
+                h1 My events
+            li
+              svg(class="card__account")
+                use(xlink:href="/img/icons.svg#icon-star")
+              a(href="#")
+                h1 Reviews
+            li
+              svg(class="card__account")
+                use(xlink:href="/img/icons.svg#icon-credit-card")
+              a(href="#")
+                h1 Payment
+          -if (user.role==='admin')      
+            ul#opt2
+                li
+                    svg(class="card__account")
+                        use(xlink:href="/img/icons.svg#icon-map")
+                    a(href="#")
+                        h1 Manage Events
+                li
+                    svg(class="card__account")
+                        use(xlink:href="/img/icons.svg#icon-users")
+                    a(href="#")
+                        h1 Manage Users
+                li
+                    svg(class="card__account")
+                        use(xlink:href="/img/icons.svg#icon-star")
+                    a(href="#")
+                        h1 Manage Reviews
+                li
+                    svg(class="card__account")
+                        use(xlink:href="/img/icons.svg#icon-briefcase")
+                    a(href="#")
+                        h1 Manage Bookings
+        #complete-account
+          #changeMe
+            .man
+              form#form101
+                h1 Account Settings
+                label(for="textt") Name
+                input#textt(type="text", required,value=`${user.name}`)
+                label(for="emaill") Email
+                input#emaill(type="email", placeholder="you@gmail.com", required,value=`${user.email}`)
+                div(id="upload_photo")
+                  img(src=`/img/users/${user.photo}`)
+                  input#photo-user(type="file", accept="image/*", name="photo-user")
+                  div
+                    label#label-user(for="photo-user") Choose new photo
+                #file-button
+                  button Save changes
+              form#form102
+                h1 Change Password
+                label(for="cp") Current Password
+                input#cp(type="password", placeholder="••••••••", required, minlength="8")
+                label(for="np") New Password
+                input#np(type="password", placeholder="••••••••", required, minlength="8")
+                label(for="cnp") Confirm Password
+                input#cnp(type="password", placeholder="••••••••", required, minlength="8")
+                #file-button2
+                  button Save changes
