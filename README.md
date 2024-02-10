@@ -6,7 +6,7 @@ Welcome to Open Sky Festival, a dynamic MongoDB, Express.js, Node.js project.
 
 ## Setup 🛠️
 
-To set up TicketBlaster, follow these steps:
+To set up Open Sky Festival, follow these steps:
 
 1. Create a `config.env` file in the project. Structure it as follows:
 
