@@ -1,19 +1,19 @@
 header
     #allevents
-        a(href="/") All Events
+        a(href='/') All Events
     div
-        a(href="/aboutUs")
-            img(src="/img/theatre%20logo.png")
+        a(href='/aboutUs')
+            img(src='/img/theatre%20logo.png')
         div#data-loaded    
     #account-management
       if !user
         #signUp
-            a(href="/signup") Sign Up 
+            a(href='/signup') Sign Up 
         #logIn
-            a(href="/login") Log in
+            a(href='/login') Log in
       else 
         #signUp
-            a(href="#" id="logout") Log out
+            a(href="#" id='logout') Log out
         #logIn
             img(src=`/img/users/${user.photo}` id="sredba")
-            a(href="/me")=user.name.split(' ')[0]
+            a(href='/me')=user.name.split(' ')[0]
